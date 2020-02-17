@@ -17,7 +17,7 @@ TimeSinceLastUpdate = 0
 
 
 -- OnLoad Event Handler
-function BagSorter_OnLoad()
+function WowBagSorter_OnLoad()
     DEFAULT_CHAT_FRAME:AddMessage("BagSorter Loaded: Type /bs to sort your bags.")
     SlashCmdList["BAGSORTER"] = BagSort;
     SLASH_BAGSORTER1 = "/BagSort";
@@ -32,7 +32,7 @@ end
 
 
 -- OnUpdate Event Handler
-function BagSorter_OnUpdate(self, elapsed)
+function WowBagSorter_OnUpdate(self, elapsed)
   --DEFAULT_CHAT_FRAME:AddMessage("OnUpdate")
   TimeSinceLastUpdate = TimeSinceLastUpdate + elapsed; 
 
