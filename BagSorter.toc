@@ -1,0 +1,11 @@
+## Interface: 50400
+## Title: BagSorter
+## Author: Kirk Lennstrom
+## Version: 2.2
+## Notes: Sorts items in your bags and bank so items are easy to find .
+## SavedVariablesPerCharacter: g_BagSorterSettings
+## SavedVariables: g_BagSorter_GlobalSettings
+
+BagSorter.xml
+SortFunctions.lua
+BagSortInit.lua
