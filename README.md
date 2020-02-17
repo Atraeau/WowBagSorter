@@ -1,2 +1,2 @@
 # WowBagSorter
-Addon to sorts bags in World of Warcraft
+Addon to sort bags in World of Warcraft
